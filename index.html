@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ToDo App</title>
+      <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+      
+      <section id="container">
+            <h1 id="header" class="header">To-Do App</h1>
+            <form class="new-task-container box">
+                  <label for="new-task">Add New Task</label>
+                  <input type="text" id="new-task">
+                  <input type="submit" value="Add Task" id="add-task">
+            </form>
+
+            <div class="todo-list box">
+                  <h2>incomplete tasks</h2>
+                  <ul id="items">
+                        <li class="item">
+                              <input type="checkbox"><lebel>Task Name</lebel>    
+                        </li>
+                        <li class="item">
+                              <input type="checkbox"><label>Task Name</label>
+                        </li>
+                        <li class="item">
+                              <input type="checkbox"><label>Task Name</label>
+                        </li>
+                  </ul>
+            </div>
+
+            <!--Complete Tasks-->
+            <div class="complete-list box">
+                  <h2>Completed Tasks</h2>
+            <ul>
+                  <li class="item">Task Name <button class="delete">Delete</button></li>
+            </ul>
+            </div>
+      </section>
+
+
+      <!--JS FILES-->
+      <script src="/play.js"></script>
+</body>
+</html>
